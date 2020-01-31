@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
-  xmlns:android="http://schemas.android.com/apk/res/android" id="cordova-plugin-sign-in-with-apple" version="0.0.1">
-  <name>cordova-plugin-sign-in-with-apple</name>
+  xmlns:android="http://schemas.android.com/apk/res/android" id="cordova-plugin-sign-in-with-apple-no-ver" version="0.0.1">
+  <name>cordova-plugin-sign-in-with-apple-no-ver</name>
 
   <description>Sign in with Apple</description>
   <license>MIT</license>
@@ -9,6 +9,11 @@
   <keywords>cordova,ios,apple,sign in with apple</keywords>
   <repo>https://github.com/agomezjida/cordova-plugin-sign-in-with-apple-no-ver.git</repo>
   <issue>https://github.com/agomezjida/cordova-plugin-sign-in-with-apple-no-ver/issues</issue>
+
+  <engines>
+      <engine name="cordova-ios" version=">=5.0.0" />
+  </engines>
+
 
   <js-module src="www/sign-in-with-apple.js" name="SignInWithApple">
     <clobbers target="cordova.plugins.SignInWithApple" />
