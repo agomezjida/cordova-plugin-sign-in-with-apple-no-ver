@@ -7,14 +7,8 @@
   <license>MIT</license>
 
   <keywords>cordova,ios,apple,sign in with apple</keywords>
-  <repo>https://github.com/twogate/cordova-plugin-sign-in-with-apple.git</repo>
-  <issue>https://github.com/twogate/cordova-plugin-sign-in-with-apple/issues</issue>
-
-  <engines>
-    <engine name="cordova" version=">=8.0.0"/>
-    <engine name="cordova-ios" version=">=4.5.0"/>
-    <!--<engine name="apple-ios" version=">=13.0" />-->
-  </engines>
+  <repo>https://github.com/agomezjida/cordova-plugin-sign-in-with-apple-no-ver.git</repo>
+  <issue>https://github.com/agomezjida/cordova-plugin-sign-in-with-apple-no-ver/issues</issue>
 
   <js-module src="www/sign-in-with-apple.js" name="SignInWithApple">
     <clobbers target="cordova.plugins.SignInWithApple" />
